@@ -1,0 +1,6 @@
+#!/bin/bash
+lstart=$1
+declare -i len=$3-${#lstart}
+letters=$2
+egrep -i "^$lstart[$letters]{$len}$" /usr/share/dict/words
+#echo ${#lstart}

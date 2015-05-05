@@ -1,0 +1,5 @@
+head tail find pushd popd cd tac cat tee ls rm mv cp wc mkdir
+man htop
+free ps date cal rsync
+"cal -3 -NM -C"
+alias

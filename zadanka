@@ -1,0 +1,31 @@
+1.unCommand input.tex output.tex
+jeśli w pliku texowym znajduje się jakiś \newcommand{}{} to zamienia wszystkie wywołania na oryginalną postać funkcji
+analogicznie dla environment
+2. dolarToEq
+dollarToEq [-i] input.tex [output.tex]
+wszystkie $$ zamienia na begin/end equation
+i to jest dodatkowa opcja, która powoduje podmianę "w miejscu"
+w przeciwnym wypadku begin{equation} i end{equation} ma być zawsze w osobnej linii
+mozesz zalozyc (w obu przypadkach), ze plik .tex jest poprawnie skonstruowany
+3. prettyTabular
+prettyTabular input.tex [output.tex]
+porządkuje & i \\ w tabelach, zeby byly ładnie wyrównane
+i żeby była co najmniej jedna spacja przed obydwoma i dokladnie jedna po kazdej
+tutaj mozna dużo ładnych poprawek robic
+wazn zeby bylo odporne na multirow i multicolumn
+To chyba będzie na koniec
+i może ładna zasada: zeby brakujace & były dodawane na koniec
+i zrobic taką ładną wersję, żeby można było (jak użytkownik chce) leciec po tabelce i wyrównywać komórki zgodnie z tymi opcjami {llrlclrl}
+moze najlepiej c zamienic na l, ale r zostawic
+to są moje trzy pomysły:)
+mogę być testerem:D
+o, i jeszcze jeden fajny program
+popSame [duzo opcji] directory1 directory2
+wyrzuca z directory2 wszystkie pliki które już istnieją w directory1
+i tu wersji w cholere
+fajnie by było, gdyby były różne możliwości sprawdzania, np. tylko po nazwie, tylko po md5 lub po obydwu naraz
+spisz se to gdzies:)
+to ma prawo byc najprostsze
+i do tego wersja zeby po prostu porównywał pliki
+Znalazłem ostatnio fajne polecenie
+
